@@ -15,6 +15,8 @@ public class Server extends Thread {
     static ArrayList<AcceptClient> threads = new ArrayList<AcceptClient>();
     static ArrayList<AcceptClient> clientArrayList = new ArrayList<AcceptClient>();
     static long time;
+    int sorry = 0;
+    
     
     public static void main(String[] args) throws Exception {
         int count = 0;
